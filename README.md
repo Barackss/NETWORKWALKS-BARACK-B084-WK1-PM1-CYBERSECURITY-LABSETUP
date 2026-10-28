@@ -75,7 +75,7 @@ Additional target machines can be added to the same virtual network in future pr
 | 📡 Network Address | 10.0.0.0/24        |
 | 🐧 Kali IP Address | 10.0.0.2/24        |
 | 🚪 Default Gateway | 10.0.0.1           |
-| 🌍 DNS Server      | 8.8.8.8            |
+| 🌍 DNS Server      | 10.0.0.1            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
 ---
