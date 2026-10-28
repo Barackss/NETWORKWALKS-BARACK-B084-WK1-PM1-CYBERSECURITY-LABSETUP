@@ -150,7 +150,7 @@ Example configuration:
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
-DNS: 8.8.8.8
+DNS: 10.0.0.1
 ```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
@@ -197,7 +197,7 @@ Gateway:
 10.0.0.1
 
 DNS:
-8.8.8.8
+10.0.0.1
 ```
 
 ---
@@ -222,23 +222,6 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
-
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
-
-
----
 
 # 💡 What I Learned
 
